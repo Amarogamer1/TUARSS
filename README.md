@@ -36,79 +36,6 @@
     // Actualiza el número en el carrito
     document.getElementById('contador-carrito').textContent = contador;
   }
-</script>
-<!-- Modal confirmación -->
-<div id="modal" style="
-  display:none;
-  position: fixed;
-  top:0; left:0; right:0; bottom:0;
-  background-color: rgba(0,0,0,0.5);
-  justify-content: center;
-  align-items: center;
-  z-index: 2000;
-">
-  <div style="
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 300px;
-    text-align: center;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-  ">
-    <p id="modal-text" style="font-size: 18px; margin-bottom: 20px;">¿Agregar al carrito?</p>
-    <button id="confirmar" style="
-      background-color: #28a745;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      margin-right: 10px;
-      border-radius: 5px;
-      cursor: pointer;
-    ">Agregar al carrito</button>
-    <button id="cancelar" style="
-      background-color: #dc3545;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      border-radius: 5px;
-      cursor: pointer;
-    ">Cancelar</button>
-  </div>
-</div>
-<script>
-  let contador = 0;
-  let productoSeleccionado = '';
-
-  const modal = document.getElementById('modal');
-  const modalTexto = document.getElementById('modal-text');
-  const btnConfirmar = document.getElementById('confirmar');
-  const btnCancelar = document.getElementById('cancelar');
-  const contadorCarrito = document.getElementById('contador-carrito');
-
-  function agregarAlCarrito(nombreProducto) {
-    productoSeleccionado = nombreProducto;
-    modalTexto.textContent = `¿Agregar "${nombreProducto}" al carrito?`;
-    modal.style.display = 'flex';
-  }
-
-  btnConfirmar.onclick = function() {
-    contador++;
-    contadorCarrito.textContent = contador;
-    modal.style.display = 'none';
-    alert(`"${productoSeleccionado}" fue agregado al carrito.`);
-  }
-
-  btnCancelar.onclick = function() {
-    modal.style.display = 'none';
-  }
-
-  // También cerrar modal si hacen click fuera del cuadro
-  window.onclick = function(event) {
-    if(event.target == modal) {
-      modal.style.display = 'none';
-    }
-  }
-</script>
 
 </body>
 <div class="productos">
@@ -233,3 +160,38 @@
     <button onclick="agregarAlCarrito('Botella de plástico')">Comprar producto</button>
   </div>
 </div>
+  
+</body>
+<!-- MODAL (CUADRO EMERGENTE) -->
+<div id="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:2000;">
+  <div style="background:white; padding:20px; border-radius:10px; text-align:center; max-width:300px;">
+    <p id="modal-texto" style="margin-bottom:20px;">¿Agregar producto al carrito?</p>
+    <button onclick="confirmarAgregar()" style="margin-right:10px;">Agregar al carrito</button>
+    <button onclick="cerrarModal()">Cancelar</button>
+  </div>
+</div>
+
+<!-- SCRIPT DEL CARRITO Y EL MODAL -->
+<script>
+  let contador = 0;
+  let productoSeleccionado = "";
+  const modal = document.getElementById('modal');
+  const modalTexto = document.getElementById('modal-texto');
+
+  function agregarAlCarrito(nombreProducto) {
+    productoSeleccionado = nombreProducto;
+    modalTexto.textContent = `¿Agregar "${nombreProducto}" al carrito?`;
+    modal.style.display = 'flex';
+  }
+
+  function confirmarAgregar() {
+    contador++;
+    document.getElementById('contador-carrito').textContent = contador;
+    modal.style.display = 'none';
+  }
+
+  function cerrarModal() {
+    modal.style.display = 'none';
+  }
+</script>
+</body>

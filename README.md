@@ -1,4 +1,10 @@
-#TUARSS
+<div class="encabezado">
+  <h1>TUARSS 🛒</h1>
+  <p>Tu tienda de útiles escolares al mejor precio</p>
+  <div class="carrito">
+    🛒 <span id="contador-carrito">0</span>
+  </div>
+</div>
 <div class="productos">
   <div class="producto">
     <img src="imagenes/Lapiz.jpg.jpeg" alt="Set de lápices">

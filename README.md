@@ -103,10 +103,10 @@
     <button onclick="agregarAlCarrito('Portaminas 0.5 mm')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Folio.jpg" alt="Pack de folios">
-    <h3>Pack de folios</h3>
-    <p>$1.000 CLP</p>
-    <button onclick="agregarAlCarrito('Pack de folios')">Comprar producto</button>
+    <img src="imagenes/block.jpg" alt="block de dibujo">
+    <h3>block de dibujo</h3>
+    <p>$1.500 CLP</p>
+    <button onclick="agregarAlCarrito('block de dibujo')">Comprar producto</button>
   </div>
   <div class="producto">
     <img src="imagenes/PapelLustre.jpg" alt="Papel lustre">

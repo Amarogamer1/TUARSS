@@ -1,8 +1,12 @@
-<div style="position: relative; background-color: #333; color: white; padding: 20px; text-align: center;">
-  <h1>TUARSS 🦖⛩️🛒</h1>
-  <p>Tu tienda de útiles escolares al mejor precio</p>
+<body>
 
-  <div style="
+  <div class="encabezado">
+    <h1>TUARSS 🦖⛩️🛒</h1>
+    <p>Tu tienda de útiles escolares al mejor precio</p>
+  </div>
+
+  <!-- carrito fuera de contenedores, fijo en la esquina -->
+  <div class="carrito" style="
     position: fixed;
     top: 20px;
     right: 20px;
@@ -18,7 +22,12 @@
   ">
     🛒 <span id="contador-carrito">0</span>
   </div>
-</div>
+
+  <div class="productos">
+    <!-- productos aquí -->
+  </div>
+
+</body>
 <div class="productos">
   <div class="producto">
     <img src="imagenes/Lapiz.jpg.jpeg" alt="Set de lápices">

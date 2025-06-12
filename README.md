@@ -26,7 +26,17 @@
   <div class="productos">
     <!-- productos aquí -->
   </div>
+<script>
+  // Contador inicial
+  let contador = 0;
 
+  function agregarAlCarrito(nombreProducto) {
+    contador++;
+    // Actualiza el número en el carrito
+    document.getElementById('contador-carrito').textContent = contador;
+    alert('Agregaste "' + nombreProducto + '" al carrito (simulación).');
+  }
+</script>
 </body>
 <div class="productos">
   <div class="producto">

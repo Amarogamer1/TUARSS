@@ -91,6 +91,19 @@
   <div class="contenedor">
     <div class="productos">
       <div class="producto">
+        <div class="producto">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Papel_lustre.jpg/800px-Papel_lustre.jpg" alt="Papel lustre">
+  <h3>Papel lustre</h3>
+  <p>$600 CLP</p>
+  <button onclick="agregarAlCarrito('Papel lustre')">Comprar producto</button>
+</div>
+
+<div class="producto">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Water_bottle_01.jpg/640px-Water_bottle_01.jpg" alt="Botella de plástico">
+  <h3>Botella de plástico</h3>
+  <p>$1.000 CLP</p>
+  <button onclick="agregarAlCarrito('Botella de plástico')">Comprar producto</button>
+</div>
         <img src="Lapiz.jpg" alt="Lápiz escolar">
         <h3>Set de lápices</h3>
         <p>$1.000 CLP</p>

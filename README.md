@@ -35,7 +35,6 @@
     contador++;
     // Actualiza el número en el carrito
     document.getElementById('contador-carrito').textContent = contador;
-    alert('Agregaste "' + nombreProducto + '" al carrito (simulación).');
   }
 </script>
 <!-- Modal confirmación -->

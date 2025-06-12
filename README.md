@@ -37,16 +37,16 @@
     <button onclick="agregarAlCarrito('Corrector líquido')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Sacapuntas.jpg" alt="Sacapuntas doble">
-    <h3>Sacapuntas doble</h3>
+    <img src="imagenes/Sacapuntas.jpg" alt="Sacapuntas">
+    <h3>Sacapuntas</h3>
     <p>$600 CLP</p>
-    <button onclick="agregarAlCarrito('Sacapuntas doble')">Comprar producto</button>
+    <button onclick="agregarAlCarrito('Sacapuntas')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Colores.jpg" alt="Caja de colores">
-    <h3>Caja de colores</h3>
+    <img src="imagenes/Colores.jpg" alt="colores de palo">
+    <h3>colores de palo</h3>
     <p>$2.500 CLP</p>
-    <button onclick="agregarAlCarrito('Caja de colores')">Comprar producto</button>
+    <button onclick="agregarAlCarrito('colores de palo')">Comprar producto</button>
   </div>
   <div class="producto">
     <img src="imagenes/Estuche.jpg" alt="Estuche escolar">
@@ -55,8 +55,8 @@
     <button onclick="agregarAlCarrito('Estuche escolar')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Resaltadores.jpg" alt="Set de resaltadores">
-    <h3>Set de resaltadores</h3>
+    <img src="imagenes/destacadores.jpg" alt="Set de destacadores">
+    <h3>Set de destacadores</h3>
     <p>$2.000 CLP</p>
     <button onclick="agregarAlCarrito('Set de resaltadores')">Comprar producto</button>
   </div>
@@ -85,22 +85,22 @@
     <button onclick="agregarAlCarrito('Cartuchera con cierre')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Calculadora.jpg" alt="Calculadora básica">
-    <h3>Calculadora básica</h3>
-    <p>$4.000 CLP</p>
-    <button onclick="agregarAlCarrito('Calculadora básica')">Comprar producto</button>
+    <img src="imagenes/Carpeta.jpg" alt="Carpeta basica">
+    <h3>Carpeta basica</h3>
+    <p>$1.200 CLP</p>
+    <button onclick="agregarAlCarrito('Carpeta basica')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Cinta.jpg" alt="Cinta adhesiva">
-    <h3>Cinta adhesiva</h3>
-    <p>$500 CLP</p>
-    <button onclick="agregarAlCarrito('Cinta adhesiva')">Comprar producto</button>
+    <img src="imagenes/marcador.jpg" alt="Marcador permanente">
+    <h3>Marcador permanente</h3>
+    <p>$2.300 CLP</p>
+    <button onclick="agregarAlCarrito('Marcador permanente')">Comprar producto</button>
   </div>
   <div class="producto">
-    <img src="imagenes/Portaminas.jpg" alt="Portaminas 0.5 mm">
-    <h3>Portaminas 0.5 mm</h3>
-    <p>$1.500 CLP</p>
-    <button onclick="agregarAlCarrito('Portaminas 0.5 mm')">Comprar producto</button>
+    <img src="imagenes/mina.jpg" alt="lapiz mina">
+    <h3>lapiz mina</h3>
+    <p>$800 CLP</p>
+    <button onclick="agregarAlCarrito('lapiz mina')">Comprar producto</button>
   </div>
   <div class="producto">
     <img src="imagenes/block.jpg" alt="block de dibujo">

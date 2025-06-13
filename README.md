@@ -27,7 +27,7 @@
     }
   </style>
 </head>
-</div>
+}
 <body>
 
   <div class="encabezado">

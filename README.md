@@ -181,3 +181,33 @@
   }
 </script>
 </body>
+</div>
+
+<head>
+  <!-- otras etiquetas -->
+  <style>
+    /* pega el CSS aquí */
+    .encabezado {
+      background-color: #333333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .productos {
+      background-color: #04376B;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .producto {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      width: 200px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+  </style>
+</head>

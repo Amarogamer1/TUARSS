@@ -181,7 +181,6 @@
   }
 </script>
 </body>
-</div>
 
 <head>
   <!-- otras etiquetas -->

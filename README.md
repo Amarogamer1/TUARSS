@@ -156,15 +156,6 @@
   </div>
 </div>
 
-  <!-- Modal -->
-  <div id="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:2000;">
-    <div style="background:white; padding:20px; border-radius:10px; text-align:center; max-width:300px;">
-      <p id="modal-texto" style="margin-bottom:20px;">¿Agregar producto al carrito?</p>
-      <button onclick="confirmarAgregar()" style="margin-right:10px;">Agregar al carrito</button>
-      <button onclick="cerrarModal()">Cancelar</button>
-    </div>
-  </div>
-
   <!-- Script -->
   <script>
     let contador = 0;

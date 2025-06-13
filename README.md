@@ -23,20 +23,6 @@
     🛒 <span id="contador-carrito">0</span>
   </div>
 
-  <div class="productos">
-    <!-- productos aquí -->
-  </div>
-  
-<script>
-  // Contador inicial
-  let contador = 0;
-
-  function agregarAlCarrito(nombreProducto) {
-    contador++;
-    // Actualiza el número en el carrito
-    document.getElementById('contador-carrito').textContent = contador;
-  }
-
 </body>
 <div class="productos">
   <div class="producto">
@@ -169,28 +155,3 @@
     <button onclick="cerrarModal()">Cancelar</button>
   </div>
 </div>
-
-<!-- SCRIPT DEL CARRITO Y EL MODAL -->
-<script>
-  let contador = 0;
-  let productoSeleccionado = "";
-  const modal = document.getElementById('modal');
-  const modalTexto = document.getElementById('modal-texto');
-
-  function agregarAlCarrito(nombreProducto) {
-    productoSeleccionado = nombreProducto;
-    modalTexto.textContent = `¿Agregar "${nombreProducto}" al carrito?`;
-    modal.style.display = 'flex';
-  }
-
-  function confirmarAgregar() {
-    contador++;
-    document.getElementById('contador-carrito').textContent = contador;
-    modal.style.display = 'none';
-  }
-
-  function cerrarModal() {
-    modal.style.display = 'none';
-  }
-</script>
-</body>

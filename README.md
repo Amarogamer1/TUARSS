@@ -180,9 +180,9 @@
     modal.style.display = 'none';
   }
 </script>
+<head>
 </body>
 
-<head>
   <!-- otras etiquetas -->
   <style>
     /* pega el CSS aquí */

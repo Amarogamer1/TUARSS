@@ -179,6 +179,7 @@
   function cerrarModal() {
     modal.style.display = 'none';
   }
+  </body>
 </script>
 <head>
   
@@ -208,5 +209,4 @@
       text-align: center;
     }
   </style>
-</body>
 </head>

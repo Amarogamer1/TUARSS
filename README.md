@@ -179,8 +179,8 @@
   function cerrarModal() {
     modal.style.display = 'none';
   }
-  </body>
 </script>
+ </body>
 <head>
   
   <!-- otras etiquetas -->

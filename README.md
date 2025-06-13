@@ -181,8 +181,7 @@
   }
 </script>
 <head>
-</body>
-
+  
   <!-- otras etiquetas -->
   <style>
     /* pega el CSS aquí */
@@ -210,3 +209,4 @@
     }
   </style>
 </head>
+</body>
